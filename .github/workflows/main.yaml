@@ -34,4 +34,3 @@ jobs:
 
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/ci-cd-node-app:latest
-        
